@@ -9,7 +9,7 @@ jobs:
       COVERAGE_SINGLE: 50
       # Minimum total code coverage
       COVERAGE_TOTAL: 54
-    runs-on: ubuntu-latest
+    runs-on: buildjet-2vcpu-ubuntu-2204
     services:
       postgres:
         image: postgres
