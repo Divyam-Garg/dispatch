@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   build:
-    runs-on: buildjet-2vcpu-ubuntu-2204
+    runs-on: slickci-runner-01
 
     steps:
       - name: Check out Git repository
