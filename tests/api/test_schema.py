@@ -12,6 +12,7 @@
 # from dispatch.main import app
 #
 #
+#ooo
 # schemathesis.fixups.install(["fast_api"])
 #
 # schema = schemathesis.from_asgi("/api/v1/docs/openapi.json", app, base_url="/api/v1")
